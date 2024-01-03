@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <main>
       <div className="card">
         <div className="container">
           <img src="/images/illustration-article.svg" alt="Illustration" />
@@ -27,7 +27,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 }
 
