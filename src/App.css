@@ -27,7 +27,8 @@ img {
   border-radius: 0.75rem;
 }
 
-.tag {
+.tag:disabled {
+  color: inherit;
   border: none;
   text-align: inherit;
   font: inherit;

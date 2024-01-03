@@ -6,7 +6,9 @@ function App() {
       <div className="card">
         <div className="container">
           <img src="/images/illustration-article.svg" alt="Illustration" />
-          <button className="tag">Learning</button>
+          <button className="tag" disabled>
+            Learning
+          </button>
           <div className="date">Published 21 Dec 2023</div>
           <a href="#" className="title">
             HTML & CSS foundations
